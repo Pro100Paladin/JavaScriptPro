@@ -1,0 +1,25 @@
+/* figure{
+   display: flex;
+   flex-flow: column;
+   padding: 5px;
+   min-width: 220px;
+   margin: auto;
+}
+
+img{
+   min-width: 220px;
+   min-height: 150px;
+}
+
+figcaption{
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+} */
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
