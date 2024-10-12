@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Shop</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js" defer type="module"></script>
+	</head>
+	<body>
+		<header class="header center">
+			<div class="header__block_left">
+				<a href="#">
+					<img src="../img/Logo.svg" alt="Logo" />
+				</a>
+				<img src="../img/Search.svg" alt="Search" />
+			</div>
+			<div class="header__block_right">
+				<button>
+					<img src="../img/Burger.svg" alt="Menu" />
+				</button>
+				<a href="#">
+					<img src="../img/Сabinet.svg" alt="Cabinet" />
+				</a>
+				<button>
+					<img src="../img/Сart.svg" alt="" />
+				</button>
+			</div>
+		</header>
+		<section class="main_section">
+			<img src="../img/Main_picture.png" alt="main picture" />
+			<div class="main_section__text_decoration">
+				<h2>
+					THE BRAND<br /><span class="main_section__text_decoration__bold_type">OF LUXERIOUS</span>
+					<span class="main_section__text_decoration__select_text_color">FASHION</span>
+				</h2>
+			</div>
+		</section>
+		<section class="productBox categories center">
+			<div class="items">
+				<div class="item eclipse width_tablet">
+					<img src="../img/For_women.png" alt="For women" />
+					<div class="eclipse__filter"></div>
+				</div>
+				<div class="item">
+					<p>30% OFF</p>
+					<h2>FOR WOMEN</h2>
+				</div>
+			</div>
+			<div class="items">
+				<div class="item eclipse width_tablet">
+					<img src="../img/For_men.png" alt="For men" />
+					<div class="eclipse__filter"></div>
+				</div>
+				<div class="item">
+					<p>HOT DEAL</p>
+					<h2>FOR MEN</h2>
+				</div>
+			</div>
+			<div class="items">
+				<div class="item eclipse width_tablet">
+					<img src="../img/For_kids.png" alt="For kids" />
+					<div class="eclipse__filter"></div>
+				</div>
+				<div class="item">
+					<p>NEW ARRIVALS</p>
+					<h2>FOR KIDS</h2>
+				</div>
+			</div>
+			<div class="items">
+				<div class="item eclipse">
+					<img src="../img/Accesories.png" alt="ACCESORIES" />
+					<div class="eclipse__filter"></div>
+				</div>
+				<div class="item">
+					<p>LUXIROUS & TRENDY</p>
+					<h2>ACCESORIES</h2>
+					<!-- <img src="../img/Сart.svg" alt=""> -->
+				</div>
+			</div>
+			<div id="title-item"><h1 class="title">Fetured Items</h1>
+				<p class="description">Shop for items based on what we featured in this week</p></div>
+		</section>
+		<div class="productBox center"></div>
+		<div class="hidden">
+			<button class="hidden__btn_down">Browse All Product</button>
+		</div>
+		<section class="product-box-bottom center boxes-of-advantages">
+			<div class="boxes-of-advantages__box">
+				<img src="../img/Truck.png" alt="Truck" />
+				<h2>Free Delivery</h2>
+				<p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+			</div>
+			<div class="boxes-of-advantages__box">
+				<img src="../img/Sales.png" alt="" />
+				<h2>Sales & discounts</h2>
+				<p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+			</div>
+			<div class="boxes-of-advantages__box">
+				<img src="../img/Crown.png" alt="" />
+				<h2>Quality assurance</h2>
+				<p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+			</div>
+		</section>
+		<div class="cartBox center" id="cart" style="display: none;">
+			<h2 class="cartBox__shoppingCartHeader">Cart items</h2>
+			<div class="cartBox__productCart" id="cart-items"></div>
+	  </div>
+		<footer>
+			<section class="items">
+				<div class="item img_background">
+					<img class="back_footer" src="../img/Background.png" alt="Image background" />
+				</div>
+				<div class="item block2">
+					<div class="block2__box1">
+						<img src="../img/Foto.png" alt="Foto" />
+						<h6>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</h6>
+					</div>
+					<div class="block2__box2">
+						<h3>SUBSCRIBE</h3>
+						<h4>FOR OUR NEWLETTER AND PROMOTION</h4>
+						<form action="form" class="form">
+							<input type="email" placeholder="Enter your Email" />
+							<button>Subscribe</button>
+						</form>
+					</div>
+				</div>
+			</section>
+			<section class="center footer_navigation">
+				<p>© 2023 Brand All Rights Reserved.</p>
+				<nav class="footer_navigation__link">
+					<h1 style="display: none">Ссылки на социальные сети</h1>
+					<a href="#"><img src="../img/facebook.svg" alt="Logo" /></a>
+					<a href="#"> <img src="../img/insta.svg" alt="Logo instagram" /></a>
+					<a href="#"> <img src="../img/pinta.svg" alt="Logo pinterest" /></a>
+					<a href="#"> <img src="../img/twitter.svg" alt="Logo twitter" /></a>
+				</nav>
+			</section>
+		</footer>
+	</body>
+</html>

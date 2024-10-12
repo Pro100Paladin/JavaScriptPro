@@ -1,0 +1,5 @@
+const products = [
+	{ "img": "../img/Crown.png", "title": "Product 1", "description": "Description 1", "price": 10 },
+	{ "img": "../img/Accesories.png", "title": "Product 1", "description": "Description 1", "price": 10 }
+	// Добавьте другие товары по необходимости
+];
